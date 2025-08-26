@@ -16,6 +16,14 @@
     font-style: italic;
 }
 
+.background3 {
+    background: url("../images/backaslijadid.avif");
+    height: 735px;
+    background-size: cover;
+    font-family: "Anton", sans-serif;
+    font-style: italic;
+}
+
 .background2 {
     background: url("../images/nigga.avif");
     height: 730px;
@@ -52,4 +60,8 @@
 
 .non {
     scrollbar-width: none;
+}
+
+.doshvar {
+    font-size: 56px;
 }
