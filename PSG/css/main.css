@@ -1,0 +1,55 @@
+.anton-regular {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.img1 {
+    width: 48px;
+}
+
+.background1 {
+    background: url("../images/backasli.avif");
+    height: 735px;
+    background-size: cover;
+    font-family: "Anton", sans-serif;
+    font-style: italic;
+}
+
+.background2 {
+    background: url("../images/nigga.avif");
+    height: 730px;
+    background-size: cover;
+    font-family: "Anton", sans-serif;
+    font-style: italic;
+}
+
+.mainfont {
+    font-family: "Anton", sans-serif;
+    font-style: italic;
+}
+
+.nvv {
+    height: 700px;
+}
+
+.op {
+    font-size: 10px;
+}
+
+.lo {
+    font-size: 30px;
+}
+
+.gg {
+    width: 90%;
+    margin-left: 6%;
+}
+
+.bachenon {
+    width: 250px;
+}
+
+.non {
+    scrollbar-width: none;
+}
