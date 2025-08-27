@@ -34,10 +34,101 @@
     font-style: italic;
 }
 
-@media all and (min-width:576px) {
+@media all and (max-width:576px) {
     .background2 {
         height: 400px;
     }
+}
+
+.bbc {
+    min-width: 400px;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.bc4 {
+    background-image: url("../images/PSGForCommunities-Discover_bkycgk.avif");
+}
+
+@media all and (max-width:768px) {
+    .bc4 {
+        height: 480px;
+    }
+
+    .bc5 {
+        height: 480px;
+    }
+
+    .bc6 {
+        height: 480px;
+    }
+
+    .bc7 {
+        height: 480px;
+    }
+}
+
+@media all and (min-width:992px) {
+    .bc4 {
+        height: 600px;
+    }
+
+    .bc5 {
+        height: 600px;
+    }
+
+    .bc6 {
+        height: 284px;
+        margin-bottom: 30px;
+    }
+
+    .bc7 {
+        height: 284px;
+        background-position: center;
+    }
+
+    .hovv {
+        background: linear-gradient(to top, rgb(14, 27, 57) 10%, transparent 70%);
+        position: absolute;
+        bottom: 0;
+        transform: translateY(140px);
+        transition: all 300ms ease 0s;
+    }
+
+    .bbc:hover .hovv {
+        transform: translateY(0px);
+    }
+
+    .hovvi {
+        background: linear-gradient(to top, rgb(14, 27, 57) 10%, transparent 70%);
+        position: absolute;
+        bottom: 0;
+        transform: translateY(120px);
+        transition: all 300ms ease 0s;
+    }
+
+    .bbc:hover .hovvi {
+        transform: translateY(0px);
+    }
+}
+
+.bc5 {
+    background-image: url("../images/parisfactory.avif");
+}
+
+.bc6 {
+    background-image: url("../images/BTS_20250402_018_u3ngdx.avif");
+}
+
+.bc7 {
+    background-image: url("../images/Nouvelle-photo_dqc9wx.avif");
+}
+
+.ff {
+    font-size: 11px;
 }
 
 .mainfont {
@@ -72,4 +163,14 @@
 
 .doshvar {
     font-size: 56px;
+}
+
+@media all and (max-width:992px) {
+    .hovvi {
+        background: linear-gradient(to top, rgb(14, 27, 57) 10%, transparent 70%);
+        position: absolute;
+        bottom: 0;
+        transform: translateY(200px);
+        transition: all 300ms ease 0s;
+    }
 }
