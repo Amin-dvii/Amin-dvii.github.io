@@ -121,6 +121,10 @@
     background-image: url("../images/parisfactory.avif");
 }
 
+.logopsg {
+    height: 100px;
+}
+
 .bc6 {
     background-image: url("../images/BTS_20250402_018_u3ngdx.avif");
 }
@@ -179,4 +183,27 @@
 
 .face {
     height: 50px;
+}
+
+.last {
+    height: 100%;
+    background-color: rgb(14, 27, 54);
+}
+
+.radif1 {
+    width: 1268px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.lasttx {
+    font-size: 100px;
+}
+
+@media all and (min-width:1200px) {
+    .lasttx {
+        font-size: 200px;
+    }
 }
